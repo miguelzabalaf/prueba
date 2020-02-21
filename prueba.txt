@@ -9,3 +9,10 @@ On my ruby on rails site, I want users to only be temporary, so every time a use
 Link to logout, I want this to also delete the current user from the database:
 
 <%= link_to "Log out", logout_path, method: "delete" %>
+<%= link_to "Log out", logout_path, method: "delete" %>
+
+Sass
+Utilize our source Sass files to take advantage of variables, maps, mixins, and more. In our build we’ve increased the Sass rounding precision to 6 (by default it’s 5) to prevent issues with browser rounding.
+
+File structure
+Whenever possible, avoid modifying Bootstrap’s core files. For Sass, that means creating your own stylesheet that imports Bootstrap so you can modify and extend it. Assuming you’re using a package manager like npm, you’ll have a file structure that looks like this:commit
