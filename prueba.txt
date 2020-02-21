@@ -4,4 +4,8 @@ Figueroa
 55
 oscar silvera cruz37 años ing frustadoanalista y desarrollador de sistemas "MEKE"muchos videjuegos
 manko de por vida jaja
-100
+On my ruby on rails site, I want users to only be temporary, so every time a user logs out, I want it to also delete the user from the database. How do I do this?
+
+Link to logout, I want this to also delete the current user from the database:
+
+<%= link_to "Log out", logout_path, method: "delete" %>
