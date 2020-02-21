@@ -16,3 +16,10 @@ Utilize our source Sass files to take advantage of variables, maps, mixins, and 
 
 File structure
 Whenever possible, avoid modifying Bootstrap’s core files. For Sass, that means creating your own stylesheet that imports Bootstrap so you can modify and extend it. Assuming you’re using a package manager like npm, you’ll have a file structure that looks like this:commit
+
+Overview and Limitations
+The overall accessibility of any project built with Bootstrap depends in large part on the author’s markup, additional styling, and scripting they’ve included. However, provided that these have been implemented correctly, it should be perfectly possible to create websites and applications with Bootstrap that fulfill WCAG 2.0 (A/AA/AAA), Section 508 and similar accessibility standards and requirements.
+
+Structural markup
+Bootstrap’s styling and layout can be applied to a wide range of markup structures. This documentation aims to provide developers with best practice examples to demonstrate the use of Bootstrap itself and illustrate appropriate semantic markup, including ways in which potential accessibility concerns can be addressed.
+
